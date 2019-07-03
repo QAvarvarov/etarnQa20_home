@@ -15,14 +15,4 @@ public class OpenTelRanSite extends TestBase {
     Assert.assertEquals(url, "https://www.tel-ran.com/");
   }
 
-  @Test
-  public void elementsTest() {
-    String elementName = wd.findElement(By.id("comp-jgxqwu2binlineContent-gridContainer")).getText();
-    System.out.println(elementName);
-    String elementNameBycssSelector = wd.findElement(By.cssSelector("#comp-jgxqwu2binlineContent-gridContainer")).getText();
-    String elementNameByXPath = wd.findElement(By.xpath("//*[@id='comp-jgxqwu2binlineContent-gridContainer']")).getText();
-
-    Assert.assertEquals(elementName, elementNameByXPath);
-  }
-
 }
