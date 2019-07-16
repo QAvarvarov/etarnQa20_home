@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="first-selenium-project_main" target="1.8" />
       <module name="first-selenium-project_test" target="1.8" />
+      <module name="Trello-web-tests_main" target="1.8" />
+      <module name="Trello-web-tests_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
